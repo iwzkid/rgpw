@@ -1,0 +1,9 @@
+core_version_requirement: ^9.4 || ^10
+type: theme
+base theme: bootstrap5
+
+name: 'RGPW'
+description: 'The base theme for the research group public website.'
+
+libraries:
+  - 'rgpw/styling'

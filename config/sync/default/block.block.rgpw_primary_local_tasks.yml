@@ -1,0 +1,22 @@
+uuid: 0e4e66f3-6bbe-4aad-be9f-9e9c22325ac1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rgpw
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: rgpw_primary_local_tasks
+theme: rgpw
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

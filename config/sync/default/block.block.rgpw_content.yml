@@ -1,0 +1,22 @@
+uuid: b1387fb7-4f60-40cc-b524-5fc115437734
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rgpw
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: rgpw_content
+theme: rgpw
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

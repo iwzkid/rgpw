@@ -1,0 +1,22 @@
+uuid: d15bf552-9fd0-4a40-82b9-f2b8d844c377
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rgpw
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: rgpw_breadcrumbs
+theme: rgpw
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

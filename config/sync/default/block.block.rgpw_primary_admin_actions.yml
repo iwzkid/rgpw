@@ -1,0 +1,20 @@
+uuid: 559f24a7-f8c5-4aab-9423-f9ea9f3f801f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rgpw
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: rgpw_primary_admin_actions
+theme: rgpw
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

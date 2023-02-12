@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 55b09151-08bc-4154-ba59-7d91495fe1c5
+name: 'UMFST Research Group'
+mail: lia@xkid.ro
+slogan: ''
+page:
+  403: /node
+  404: /node
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

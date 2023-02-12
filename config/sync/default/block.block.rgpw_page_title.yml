@@ -1,0 +1,20 @@
+uuid: 8bcf6b08-547a-44c6-ad15-aa5887a67779
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rgpw
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: rgpw_page_title
+theme: rgpw
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
