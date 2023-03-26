@@ -1,3 +1,132 @@
+/* Globals. */
+html {
+    color: #0C0F0A;
+}
+.region-sidebar-first, .region-sidebar-second, .region-footer, .region-content {
+    padding: 0;
+}
+
+/* Page Title. */
+.block-page-title-block {
+
+}
+h1 {
+    border-left: 4px solid #FF7900;
+    margin-bottom: 25px;
+    padding-left: 35px;
+}
+
+/* Menus. */
+header {
+    padding: 30px 15px;
+}
+.region-header {
+    display: flex;
+    justify-content: space-between;
+}
+/* Main menu. */
+.menu--main ul {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+/* User menu. */
+.menu--account ul {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+.navbar-nav .is-active, .navbar-nav .active, .navbar-nav .active.is-active {
+    color: #009A49;
+}
+
+/* Headings. */
+h2 {
+    color: #009A49;
+    text-align: center;
+    width: 100%;
+}
+
+/* Elements. */
+img {
+    width: 100%;
+}
+
+/* About.
+#block-about .field--name-body {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+} */
+
+/* Members. */
+.block-views-blockmembers-block-1 {
+    /* background-color: lightgrey; */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.view-members .view-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
 .view-members .view-content {
     display: flex;
+    /* justify-content: space-between; */
+}
+
+.view-members .view-content .views-row {
+    background-color: #FF7900;
+    /* background: linear-gradient(to top, #FF7900, #FFBC80); */
+    border-radius: 10px;
+    margin-right: 50px;
+    max-width: 250px;
+    padding: 50px 25px;
+    width: 100%;
+}
+
+.view-members .views-field-user-picture {
+    align-content: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    max-height: 200px;
+    max-width: 200px;
+    overflow: hidden;
+}
+.view-members .views-field-user-picture .field-content {
+    width: 100%;
+}
+/* .view-members .views-field-user-picture img{
+
+} */
+.view-members .views-field-field-last-name,
+.view-members .views-field-field-first-name {
+    display: flex;
+    justify-content: center;
+}
+
+.view-members .views-field-field-last-name a,
+.view-members .views-field-field-first-name a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Main. */
+main {
+    margin-bottom: 30px;
+}
+
+/* Footer. */
+footer {
+    border-top: 3px solid #009A49;
+    padding: 15px 15px 0;
+}
+#block-umfstcopyrightyear {
+    display: flex;
+    justify-content: center;
 }
