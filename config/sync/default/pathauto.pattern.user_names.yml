@@ -1,0 +1,14 @@
+uuid: f7036ed0-a244-4209-8c8e-bdb8f82b3faa
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user_names
+label: 'User names'
+type: 'canonical_entities:user'
+pattern: 'researcher/[user:field_first_name]-[user:field_last_name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

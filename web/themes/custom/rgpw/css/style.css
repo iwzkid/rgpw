@@ -7,9 +7,10 @@ html {
 }
 
 /* Page Title. */
-.block-page-title-block {
+/* .block-page-title-block {
 
-}
+} */
+
 h1 {
     border-left: 4px solid #FF7900;
     margin-bottom: 25px;
@@ -21,24 +22,46 @@ header {
     padding: 30px 15px;
 }
 .region-header {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
 }
 /* Main menu. */
 .menu--main ul {
     display: flex;
-    flex-direction: row;
     font-weight: bold;
 }
+
+@media (min-width: 1200px) {
+    .menu--main ul {
+        flex-direction: row;
+    }
+}
+
 /* User menu. */
 .menu--account ul {
     display: flex;
-    flex-direction: row;
     font-weight: bold;
 }
+
+@media (min-width: 1200px) {
+    .menu--account ul{
+        flex-direction: row;
+    }
+}
+
+
 .navbar-nav .is-active, .navbar-nav .active, .navbar-nav .active.is-active {
     color: #009A49;
 }
+
+.block-system-branding-block, .menu--account, .menu--main {
+    padding: 0;
+}
+
+.menu--account, .menu--main {
+    margin-left: -8px;
+}
+
 
 /* Headings. */
 h2 {
@@ -48,9 +71,15 @@ h2 {
 }
 
 /* Elements. */
-img {
+img:not(.image-style-thumbnail) {
     width: 100%;
 }
+
+label {
+    font-weight: bold;
+}
+
+
 
 /* About.
 #block-about .field--name-body {
@@ -78,7 +107,7 @@ img {
 }
 
 .view-members .view-content .views-row {
-    background-color: #FF7900;
+    /* background-color: #FF7900; */
     /* background: linear-gradient(to top, #FF7900, #FFBC80); */
     border-radius: 10px;
     margin-right: 50px;
@@ -111,7 +140,7 @@ img {
 
 .view-members .views-field-field-last-name a,
 .view-members .views-field-field-first-name a {
-    color: #FFF;
+    color: #FF7900;
     font-weight: bold;
     text-decoration: none;
 }
@@ -129,4 +158,57 @@ footer {
 #block-umfstcopyrightyear {
     display: flex;
     justify-content: center;
+}
+
+/* Research */
+a {
+    color: #0C0F0A;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #009A49;
+}
+
+article h2 {
+    text-align: inherit;
+}
+
+article, article.container {
+    padding: 0;
+}
+
+button, .button, .btn {
+    background-color: #009A49;
+    border-radius: 0;
+    border-color: #009A49;
+    color: #fff;
+}
+
+button:hover, .button:hover, .btn:hover {
+    border-color: transparent;
+    background-color: transparent;
+    color: #009A49;
+}
+
+button a, .button a, .btn a {
+    color: #fff;
+}
+
+button:hover a, .button:hover a, .btn:hover a {
+    color: #009A49;
+}
+
+.view-research .views-field-view-node {
+    display: flex;
+    justify-content: end;
+}
+
+.views-field-title h2 {
+    text-align: inherit;
+}
+
+/* Title. */
+.block-page-title-block {
+    margin-bottom: 50px;
 }

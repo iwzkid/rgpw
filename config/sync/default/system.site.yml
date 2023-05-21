@@ -2,12 +2,12 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: 3998ce6a-6c4d-47d8-bf16-6f5255fb6d26
-name: 'UMFST Research Group'
+name: REFLECTION
 mail: lia@xkid.ro
-slogan: ''
+slogan: 'Research Group on Artificial Intelligence and Data Science for Healthcare Innovation'
 page:
-  403: /node
-  404: /node
+  403: ''
+  404: ''
   front: /node/1
 admin_compact_mode: false
 weight_select_max: 100

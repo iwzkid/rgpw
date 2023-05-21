@@ -1,0 +1,33 @@
+uuid: 45c20cad-3247-48c3-9ed9-871989ff1242
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+  module:
+    - block_class
+    - contact_block
+    - system
+  theme:
+    - rgpw
+third_party_settings:
+  block_class:
+    classes: container
+id: contactblock
+theme: rgpw
+region: content
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Contact Us'
+  label_display: visible
+  provider: contact_block
+  contact_form: feedback
+  form_display: default
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

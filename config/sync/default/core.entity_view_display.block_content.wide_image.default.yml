@@ -1,0 +1,33 @@
+uuid: 315d8a18-fb1f-47f2-94cb-152264ea5ff8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.wide_image
+    - field.field.block_content.wide_image.field_image
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: block_content.wide_image.default
+targetEntityType: block_content
+bundle: wide_image
+mode: default
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

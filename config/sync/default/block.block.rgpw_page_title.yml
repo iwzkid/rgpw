@@ -2,14 +2,20 @@ uuid: 8bcf6b08-547a-44c6-ad15-aa5887a67779
 langcode: en
 status: true
 dependencies:
+  module:
+    - block_class
+    - system
   theme:
     - rgpw
+third_party_settings:
+  block_class:
+    classes: container
 _core:
   default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
 id: rgpw_page_title
 theme: rgpw
 region: content
-weight: -6
+weight: -8
 provider: null
 plugin: page_title_block
 settings:
@@ -17,4 +23,8 @@ settings:
   label: 'Page title'
   label_display: '0'
   provider: core
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

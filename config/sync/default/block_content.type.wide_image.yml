@@ -1,0 +1,8 @@
+uuid: 5d52f108-da30-4d62-bfda-b951ab433b8d
+langcode: en
+status: true
+dependencies: {  }
+id: wide_image
+label: 'Wide Image'
+revision: 0
+description: 'Place a wide image anywhere on your website.'
